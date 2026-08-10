@@ -1,1 +1,0 @@
-import {z as e,I,y as pn,e as ee}from'./main-JPQLHJ7J.js';var o=class t{apiUrl=`${e.apiUrl}/ratings`;http=I(pn);getSelfRating(){return this.http.get(`${this.apiUrl}/self`)}createorUpdateSelfRating(r){return this.http.post(`${this.apiUrl}/self`,r)}static \u0275fac=function(p){return new(p||t)};static \u0275prov=ee({token:t,factory:t.\u0275fac,providedIn:"root"})};export{o};
